@@ -1,0 +1,300 @@
+/* GLOBAL */
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #222;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    background-color: #DE2E54;
+    border-radius: 8px;
+}
+
+/* GLOBAL */
+
+
+/* HEADER */
+
+.header_container{  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header_logo_link{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header_logo_img{
+    margin-right: 16px;
+}
+
+.header_logo_text{
+    padding: 0;
+    margin: 0;
+}
+
+.header_nav_list{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.header_nav_item{
+    padding: 0;
+    margin: 0;
+    margin-right: 32px;
+}
+
+.last_header_item{
+    margin-right: 0;
+}
+
+.header_nav_link{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+
+/* HERO */
+
+.site_hero{
+    background-color: #0EB4C1;
+    background-image: url('/img/hero.svg');
+    background-repeat: no-repeat;
+    background-position: calc(50% + 320px) 26px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.hero_content_wrapper{
+    width: 500px;   
+}
+
+.hero_title{
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.hero_text{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 36px;
+}
+
+/* HERO */
+
+
+/* BODY */
+
+.body_container{
+    width: 864px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.body_title{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 56px;
+    text-align: center;
+}
+
+.body_list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.body_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.body_item_img{
+    margin-right: 64px;
+    box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
+    border-radius: 24px;
+}
+
+.body_item_title, .body_item_text{
+    padding: 0;
+    margin: 0;
+}
+
+.body_item_title{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.body_item_text{
+    font-size: 16px;
+}
+
+.body_btn{
+    width: 204px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* BODY */
+
+/* LITTLE_FOOTER */
+
+.little_footer{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: rgba(14, 180, 193, 1);
+}
+
+.little_title{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 36px;
+    color: white;
+    line-height: 120%;
+}
+
+.btn_wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.little_btn{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.little_btn_tel{
+    margin-right: 40px;
+}
+
+/* LITTLE_FOOTER */
+
+/* FOOTER */
+
+.site_footer{
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.logo_text{
+    color: white;
+}
+
+.nav_link{
+    color: white;
+}
+
+/* FOOTER */
+
+/* HOVER */
+
+.header_logo_text:hover{
+    color: rgba(222, 46, 84, 1);
+}
+
+.header_nav_link:hover{
+    color: rgba(222, 46, 84, 1);
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #DE2E54;
+    padding: 10px 22px;
+    color: #DE2E54;
+}
+
+.hero_btn:hover{
+    color: white;
+    border: 0;
+    padding: 12px 24px;
+    background-color: rgba(222, 46, 84, 0.8);
+}
+
+.little_btn:hover{
+    padding: 12px 24px;
+    background-color: rgba(222, 46, 84, 1);
+    color: white;
+}
+
+/* HOVER */
+
+
+/* ACTIVE */
+
+.header_logo_text:active{
+    opacity: 0.6;
+}
+
+.header_nav_link:active{
+    opacity: 0.6;
+}
+
+.btn:active{
+    opacity: 0.6;
+}
+
+.logo_text:active{
+    color: white;
+    opacity: 0.6;
+}
+
+/* ACTIVE */
